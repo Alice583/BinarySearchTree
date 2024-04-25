@@ -390,7 +390,7 @@ public:
 
     template<typename order=InOrder>
     Iterator<order> rend() {
-        return end<order>();
+        return begin<order>();
     }
 
     template<typename order=InOrder>
